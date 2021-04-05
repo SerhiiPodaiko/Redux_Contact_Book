@@ -24,11 +24,13 @@ const EditContact = () => {
     const onUpdateContact = (e) => {
         e.preventDefault();
 
+
         const update_contact = Object.assign(contact, {
             name: name,
             phone: phone,
             email: email
         });
+    };
 
     return (
         <div className="card border-0 shadow">

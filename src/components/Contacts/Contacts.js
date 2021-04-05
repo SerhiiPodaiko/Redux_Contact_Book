@@ -30,12 +30,12 @@ const Contacts = ({ contacts }) => {
             </table>
         </div>
     )
-}
+};
 
 const mapStateToProps = (state) => {
     return {
         contacts: state.books.contacts
     }
-}
+};
 
 export default connect(mapStateToProps)(Contacts);
